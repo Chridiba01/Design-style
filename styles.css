@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto";
+    background-color: snow;
+}
+header {
+    text-align: center;
+    color: turquoise;
+}
+nav li{
+    display: inline-block;
+    padding: 1em 1em;
+    font-size: x-large;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color:turquoise;
+    text-shadow: 1px 1px;
+}
+.container{
+    display:block;
+    border: 1px solid black;
+    padding: 2px;
+   margin: 2% 20% 2% 20%;
+}
+.container h2{
+    text-align: left;
+    padding: 0.2em 0.2em;
+    font-weight: 500;
+    
+
+}
+.color-container{
+    display: block;
+    unicode-bidi: isolate;
+    display: inline-block;
+    align-content: center;
+}
+
+.color-label{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-block-start: 10%;
+}
+.color-hex{
+    color: white;
+    display: block;
+    text-align:center;
+}
+.color-panel-darkcyan{
+    background-color: darkcyan;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    margin: 20px 20px;
+    justify-content: right;
+    unicode-bidi: isolate;
+    
+    
+}
+.color-panel-deeppink{
+    background-color: #FF1493;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    margin: 20px 20px;
+    justify-content: right;
+    unicode-bidi: isolate;
+}
+.color-panel-mintgreen{
+    background-color: #4fe0b0;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    margin: 20px 20px;
+    justify-content: right;
+    unicode-bidi: isolate;
+}
+.color-panel-blue{
+    background-color: #000080;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    margin: 20px 20px;
+    unicode-bidi: isolate;}
+    .color-panel-gold{
+        background-color: gold;
+        display: inline-block;
+        width: 350px;
+        height: 150px;
+        margin: 20px 20px;
+        unicode-bidi: isolate;}
+    .color-panel-turquoise{
+        background-color: turquoise;
+        display: inline-block;
+        width: 350px;
+        height: 150px;
+        margin: 20px 20px;
+        unicode-bidi: isolate;}
+    .fonts-panel{
+        display: block
+    }
+    .fonts-container{
+        display: inline-block;
+    }
+    .nunito {
+        display:inline-block;
+        width: 350px;
+        height: 150px;
+        margin: 20px 20px;
+        unicode-bidi: isolate;
+        font-family: "nunito";
+    }
+    
+    
+    .Butterfly {
+        display:inline-block;
+        width: 350px;
+        height: 150px;
+        margin: 20px 20px;
+        unicode-bidi: isolate;
+        font-family:'butterfly kids'
+    }
+    .bungee {
+        display:inline-block;
+        width: 350px;
+        height: 150px;
+        margin: 20px 20px;
+        unicode-bidi: isolate;
+        font-family: "Bungee spice";
+    }
+    .rubik {
+        display:inline-block;
+        width: 350px;
+        height: 150px;
+        margin: 20px 20px;
+        unicode-bidi: isolate;
+        font-family:"rubik scribble";}
+    
+    #bold{
+        font-weight: bold;
+    }
+
+    .fonts-container h3{
+        text-decoration: underline;
+    }
+    .style-container{
+    display: block;
+    }
+    .style-panel{
+        display:block;
+        margin: 10% 5%;
+
+
+    }
+
+    .button-container{
+        display: inline-block;
+        margin: 10% 5%;
+    }
+    .button1{
+    background-color: none;
+    border: 2px solid black;
+    font-family: "roboto";
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: linear 0.4s;
+    background-color: #4fe0b0;
+
+        
+    }
+    .button1:hover{
+    background-color: #fff;
+    
+
+    }
+    .button1:active{
+        
+        transform:scale(0.8);
+    }
+
+    .button2{
+        background-color: none;
+        border: 2px solid black;
+        font-family: "roboto";
+        text-transform: uppercase;
+        padding: 12px 20px;
+        min-width: 200px;
+        margin: 10px;
+        cursor: pointer;
+        transition: linear 0.4s;
+        background-color: lightgray;
+        box-shadow: 2px 2px 2px 2px black;
+    }
+    .button2:hover{
+    background-color: gray;
+    
+
+        }
+    .button2:active{
+    transform: scale(0.8);
+    box-shadow: 4px 4px 4px 4px black;
+
+     }
+     .button3{
+            border: 2px solid red;
+            font-family: "roboto";
+            border-radius: 50%;
+            padding: 12px 20px;
+            min-width: 100px;
+            margin: 10px;
+            cursor: pointer;
+            transition: linear 0.4s;
+            background-color: red;
+            box-shadow: 0.5px 0.5px black
+        }
+    .button3:hover{
+            background-color: #FF1493;
+
+        }
+    .button3.active{
+            box-shadow: 3px 3px black;
+            transform: scale(0.5);
+        }
+    
